@@ -1,11 +1,11 @@
-# homebrew-janus
+# homebrew-tap
 
 [Homebrew](https://brew.sh) tap for [Janus](https://github.com/crewtives/janus) — the personal historian for makers.
 
 ## Install
 
 ```bash
-brew install crewtives/janus/janus
+brew install crewtives/tap/janus
 ```
 
 Then run the interactive setup:
