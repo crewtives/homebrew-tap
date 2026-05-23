@@ -6,23 +6,23 @@ class Janus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/crewtives/janus/releases/download/v0.2.7/janus-macos-arm64"
+      url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-macos-arm64"
       sha256 "7bd567f5f67e020687cbf29dec04ed0a8baa78d73d6c759f4bfeffadc9e2b938"
     end
     on_intel do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-macos-x64"
-      sha256 "56ea0b1f4f31a16b59b37798a263333aeb36861d9734df289dabd3949d26e8e8"
+      sha256 "d547019c14fe820600996bd2990853dc4b0df8db49071d88ac8b3061928064b1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-linux-arm64"
-      sha256 "ec42bba4da8549c80d5232523151dfe1333475850e3ce2894f79ce5bdd6bdd51"
+      sha256 "81a0441c7f04d4a198b659b1475b96e5d361681796ca4599b341950ca15f609d"
     end
     on_intel do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-linux-x64"
-      sha256 "49b7c5a44d233bfcb822933a2b0c84361591eb50dfd441e7234ac45a106916f4"
+      sha256 "daa28f452f4dde78b788da5d6fbc94d125ed36b8da144ce07130f7bf2108cf36"
     end
   end
 
