@@ -6,7 +6,7 @@ class Janus < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/crewtives/janus/releases/download/v0.2.8/janus-macos-arm64"
+      url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-macos-arm64"
       sha256 "23cec6a575502b224469b52ec693b6aae216f53325f73c9bde389f8b23be7220"
     end
     on_intel do
