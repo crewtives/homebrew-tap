@@ -1,28 +1,28 @@
 class Janus < Formula
   desc "Personal historian for makers — synthesizes git + Claude Code sessions into Obsidian"
   homepage "https://github.com/crewtives/janus"
-  version "0.5.4"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-macos-arm64"
-      sha256 "411676a26d563cbfac60f1ac770859b0111e85441ef586b8d2171dc4dd85102f"
+      sha256 "c97e88a7547eadb54627f9141752b95486f9b4a83735f4e85a8f885bf0def83e"
     end
     on_intel do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-macos-x64"
-      sha256 "9733fd48968aec22aef173daa19713f744da075fd04cc4e62ac8fe92c8d24ab3"
+      sha256 "85e29959acc76cb19c2f0160502284dc0fb1af26f7d1c7a47731f4173cfd66ba"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-linux-arm64"
-      sha256 "94bf56a8a03ba11908d6ba30ed1cc56b08794cf4780280dc924823a91f888385"
+      sha256 "782673a15b7cd930a6d46a4831a8ab4dfbe74138b19003cba591b4e265e02cbc"
     end
     on_intel do
       url "https://github.com/crewtives/janus/releases/download/v#{version}/janus-linux-x64"
-      sha256 "15c935373922191753652fc6f2951636ba0cc9f324b7e4b313ed8efd28c18d91"
+      sha256 "78cbf840a1c1d4b80b8a07454edfb804a83a9a4a2f0edc8abb36f89968097093"
     end
   end
 
